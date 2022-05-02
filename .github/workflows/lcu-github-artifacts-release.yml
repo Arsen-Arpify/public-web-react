@@ -2,14 +2,14 @@ name: Arsen-Arpify/public-web-react
 
 on:
   push:
-    branches: [main]
+    branches: [dev]
   pull_request:
-    branches: [main]
+    branches: [dev]
 
 permissions: write-all
 
 env:
-  Branches: main
+  Branches: dev
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
